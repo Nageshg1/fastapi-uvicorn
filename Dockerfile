@@ -1,4 +1,4 @@
-FROM ubuntu:3
+FROM ubuntu:3.9
 WORKDIR /app
 COPY ./requirements.txt /code/requirements.txt
 COPY ./app /app
