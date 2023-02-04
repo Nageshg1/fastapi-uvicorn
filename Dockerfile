@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM ubuntu:3
 WORKDIR /app
 COPY ./requirements.txt /code/requirements.txt
 COPY ./app /app
