@@ -2,6 +2,6 @@ version: "3"
 services:
   huntapp:
     image: nginx
-    container_name: huntapp
+    container_name: nagesh
     ports:
       - 80:80 
