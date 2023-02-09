@@ -2,6 +2,6 @@ version: "3"
 services:
   huntapp:
     image: nginx
-    container_name: nagesh
+    container_name: skanda
     ports:
       - 80:80 
