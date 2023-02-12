@@ -1,7 +1,7 @@
 version: "3"
 services:
   huntapp:
-    image: nginx
-    container_name: skanda
+    image: huntapp
+    container_name: huntapp
     ports:
-      - 80:80 
+      - 8000:8000 
